@@ -89,9 +89,9 @@ function codigo_gmail($cadena) {
 }
 
 //funcion para valida el correo
-function correo_valido($cadena) {
+/*function correo_valido($cadena) {
 	return preg_match('/[A-Za-z0-9-_]+@[A-Za-z0-9-_]+.[A-Za-z0-9-_]+/', $cadena);
-}
+}*/
 //funcion para enviar el correo
 function mandar_correo($cadena) {
 	$campo_correo = $_REQUEST['correo'];
